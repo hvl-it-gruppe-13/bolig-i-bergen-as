@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .header {
   position: sticky;
   top: 0;
@@ -8,54 +12,50 @@
 
 .wrap {
   background-color: grey;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto 1fr;
   align-items: center;
-  padding: 12px 20px;
-  gap: 15px;
+  padding: 5px 20px;
+}
+
+.logo {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
 }
 
 .navbar {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  gap: 20px; 
 }
 
 .navbar ul {
   list-style-type: none;
-  padding: 0;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: end;
   margin: 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  padding: 0;
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
-  font-size: 25px;
-  padding: 15px;
+  font-size: 18px;
+  padding: 8px 12px;
   display: block;
 }
 
 .navbar form {
-  display: flex;
-  align-items: center;
+  display: grid;
+  margin-left: 10px;
 }
 
 .navbar input {
-  padding: 8px 12px;
-  font-size: 16px;
+  padding: 6px 10px;
+  font-size: 14px;
   border-radius: 4px;
   border: 1px solid #ccc;
-}
-
-.logo {
-  color: white;
-  text-decoration: none;
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 0.2px;
 }
