@@ -20,6 +20,14 @@ th, td {
   color: white;
 }
 
+footer {
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+
 .wrap {
   background-color: grey;
   display: grid;
