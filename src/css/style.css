@@ -79,39 +79,39 @@ footer {
 }
 
 .dropdown {
-    position: relative;
+  position: relative;
 }
 
 .dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    min-width: 220px;
-    background-color: grey;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    z-index: 3000;
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width: 220px;
+  background-color: grey;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  z-index: 3000;
 }
 
 .dropdown-menu li {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .dropdown-menu a {
-    display: block;
-    padding: 10px 15px;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .dropdown-menu a:hover {
-    background-color: #555;
+  background-color: #555;
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
+  display: block;
 }
