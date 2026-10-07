@@ -22,7 +22,7 @@ main {
   width: min(100vw, 72rem);
 }
 
-.infobox {
+main div {
   background-color: var(--pop-color);
   padding: 2rem;
   margin: 2rem 0;
