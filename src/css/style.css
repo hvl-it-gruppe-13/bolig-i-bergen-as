@@ -88,6 +88,10 @@ main div {
   padding: 2.4rem;
 }
 
+.dropshadow {
+  filter: drop-shadow(0 0 3rem #0008);
+}
+
 .contact-info div {
   background-color: var(--bg-color);
   padding: 0.5rem;
