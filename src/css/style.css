@@ -58,7 +58,7 @@ main div {
 
 .full-width-intro img {
   border-radius: 0;
-  flex-basis: 24rem;
+  flex-basis: 32rem;
   object-fit: cover;
 }
 
