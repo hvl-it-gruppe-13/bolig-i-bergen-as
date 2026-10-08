@@ -85,6 +85,11 @@ main div {
   padding: 2.4rem;
 }
 
+.contact-info div {
+  background-color: var(--accent-color);
+  padding: 0.5rem;
+}
+
 table, th, td {
   border: 1px solid black;
   text-align: left;
