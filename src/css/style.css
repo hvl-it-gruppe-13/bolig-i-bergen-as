@@ -29,11 +29,34 @@ main div {
   border-radius: 0.5rem;
 }
 
-.fillbg {
-  position: absolute;
-  top: 0; left: 0; width: 100%; height: 100%;
+.full-width {
+  width: 100%;
+  height: 42rem;
+
+  overflow: clip;
+}
+
+.background-image-blur {
+  margin: 0;
+  width: 100%; height: 100%;
   object-fit: cover;
   filter: blur(1rem);
+  scale: 1.2;
+}
+
+.float-center {
+  position: relative;
+  top: -50%;
+  margin: auto;
+
+  transform: translate(0, -50%);
+}
+
+.infobox {
+  background-color: var(--pop-color);
+  width: 32rem;
+  border-radius: 0.5rem;
+  padding: 2.4rem;
 }
 
 img {
