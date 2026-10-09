@@ -92,6 +92,12 @@ main div {
   filter: drop-shadow(0 0 3rem #0008);
 }
 
+.map-bg {
+  background-image: url(../img/Bergen-kart.jpg);
+  background-size: cover;
+  backdrop-filter: brightness(80%);
+}
+
 .contact-info div {
   background-color: var(--bg-color);
   padding: 0.5rem;
