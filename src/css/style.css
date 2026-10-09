@@ -23,6 +23,10 @@ img {
   height: 24rem;
 }
 
+a img {
+  height: 4rem;
+}
+
 main {
   margin: 4rem auto 8rem auto;
   width: min(100vw, 72rem);
