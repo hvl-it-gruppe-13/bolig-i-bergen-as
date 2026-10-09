@@ -105,6 +105,10 @@ main div {
   text-align: center;
 }
 
+table {
+  border-spacing: 0;
+}
+
 table, th, td {
   border: 1px solid black;
   text-align: left;
