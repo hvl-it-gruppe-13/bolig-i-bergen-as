@@ -23,6 +23,10 @@ img {
   height: 24rem;
 }
 
+a img {
+  height: 4rem;
+}
+
 main {
   margin: 4rem auto 8rem auto;
   width: min(100vw, 72rem);
@@ -33,6 +37,7 @@ main div {
   padding: 2rem;
   margin: 2rem 0;
   border-radius: 0.5rem;
+  border: var(--accent-color) solid 2px;
 }
 
 .full-width {
@@ -97,10 +102,20 @@ main div {
   filter: drop-shadow(0 0 3rem #0008);
 }
 
+.map-bg {
+  background-image: url(../img/Bergen-kart.jpg);
+  background-size: cover;
+  backdrop-filter: brightness(80%);
+}
+
 .contact-info div {
   background-color: var(--bg-color);
   padding: 0.5rem;
   text-align: center;
+}
+
+table {
+  border-spacing: 0;
 }
 
 table, th, td {
@@ -214,7 +229,8 @@ footer {
   background-color: var(--select-color);
 }
 
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
   display: block;
 }
 
